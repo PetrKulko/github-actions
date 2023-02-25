@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "npx stylelint \"**/*.css\""
+    "lint": "stylelint \"**/*.css\" --fix"
   },
   "dependencies": {
     "react": "^18.2.0",
